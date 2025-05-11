@@ -15,6 +15,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, r
 from sklearn.model_selection import RandomizedSearchCV, train_test_split
 ```
 Make sure that NumPy version 1.24.0 is installed for compatibility with the SHAP-package. The notebook does contain a code block that installs this specific NumPy version.
+Install the latest available versions from all other packages mentioned above
 
 ## Project Motivation
 This project is part of the Udacity Data Scientist nanodegree. Since machine learning is utilized more and more in political science contexts, it is interesting to investigate the performance of these methods when predicting geopolitical phenomena like political instability or intrastate violence. This project marries political science with data science by employing a Random Forest Model for conflict prediction in Africa and the Middle East.
